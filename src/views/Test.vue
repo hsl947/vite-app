@@ -14,7 +14,8 @@
     name: 'Test',
     components: {},
     setup() {
-      return { state: useState().state };
+      const { state, increment } = useState()
+      return { state, increment };
     },
     methods: {}
   }

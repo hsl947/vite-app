@@ -4,7 +4,7 @@ import state from './state'
 export const stateSymbol = Symbol('state');
 export const createState = () => {
   const states = reactive(state);
-  const increment = () => state.userName = '名字变了'
+  const increment = () => states.userName = '名字变了'
 
   return { increment, state: readonly(states) };
 };
