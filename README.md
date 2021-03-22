@@ -1,22 +1,11 @@
 <div align="center">🛠️Vite 脚手架🛠️</div>
 
-## 特点
-
-- 多 tab 页签➕右键菜单，提升效率
-- Redux 状态管理➕持久化
-- 封装实用 axios 请求
-- 动态链式面包屑导航
-- 菜单页面路由权限控制
-- less➕css module 样式隔离
-- 列表➕分页➕多选➕搜索联动组件
-- 可自定义 webpack 配置➕优化打包
-
 ## 使用
 
 ### 使用命令行
 ```bash
 $ npm install -g typescript
-$ git clone https://github.com/hsl947/react-antd-multi-tabs-admin.git
+$ git clone git@github.com:hsl947/vite-app.git
 $ yarn install
 $ yarn start         # 访问 http://localhost:666
 ```
