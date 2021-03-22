@@ -9,7 +9,7 @@
 </template>
 
 <script lang="ts">
-  import { useState } from '../store';
+  import { useState } from '/@/store';
   export default {
     name: 'Test',
     components: {},
