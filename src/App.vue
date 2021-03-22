@@ -4,7 +4,6 @@
   <router-link to="/test">to Test page</router-link>
   <br>
   <router-view />
-
 </template>
 
 <script lang="ts">
